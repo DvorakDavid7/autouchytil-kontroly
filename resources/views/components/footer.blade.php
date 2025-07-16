@@ -20,15 +20,15 @@
         <div class="text-center">
             <i class="bi bi-telephone-fill text-2xl"></i>
             <p class="text-xl mt-2">
-            <strong>(+420) 774 034 180</strong>
+                <a href="tel:+420774034180">(+420) 774 034 180</a>
             </p>
         </div>
         <div class="text-center">
             <i class="bi bi-envelope-fill text-2xl"></i>
             <p class="text-xl mt-2">
-            <a href="mailto:info@autoservisjju.cz" target="_blank" rel="noopener noreferrer">
-                info@autoservisjju.cz
-            </a>
+                <a href="mailto:info@autoservisjju.cz" target="_blank" rel="noopener noreferrer">
+                    info@autoservisjju.cz
+                </a>
             </p>
         </div>
         </div>
