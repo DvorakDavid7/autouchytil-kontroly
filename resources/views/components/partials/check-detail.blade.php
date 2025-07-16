@@ -1,34 +1,56 @@
-<section class="bg-gray-50 py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {{-- Left Side: Custom Green Checkboxes --}}
+<section class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        {{-- Left Side: Content --}}
         <div>
-            <h2 class="text-4xl font-extrabold text-gray-900 mb-8">Vozidlo detailně prověříme</h2>
-            <form class="space-y-6">
-                @php
-                    $checks = [
-                        'zkušenosti z praxe',
-                        'prohléžíme exteriér i interiér',
-                        'napojení na diagnostiku',
-                        'mnohé další',
-                    ];
-                @endphp
+            <h2 class="text-4xl font-bold mb-4 text-gray-900">Vozidlo detailně prověřím</h2>
+            <p class="text-gray-700 mb-6 text-lg leading-relaxed">
+                Při kontrole se neopírám jen o tabulky a checklisty — využívám svých bohatých zkušeností z praxe a kombinuji
+                je s moderními nástroji pro co nejpřesnější posouzení technického stavu vozu. Každá kontrola je osobní
+                a přizpůsobena danému autu i potřebám klienta.
+            </p>
 
-                @foreach ($checks as $check)
-                    <label class="flex items-center space-x-3 cursor-pointer">
-                        <input type="checkbox" checked disabled class="custom-checkbox" />
-                        <span class="text-lg text-gray-700 font-medium">{{ ucfirst($check) }}</span>
-                    </label>
-                @endforeach
-            </form>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Zkušenosti z reálné praxe</span>
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Důkladná kontrola exteriéru i interiéru</span>
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Napojení na diagnostiku a čtení chyb</span>
+                </li>
+                <li class="flex items-start">
+                    <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Testovací jízda, kontrola dokumentace a mnohé další</span>
+                </li>
+            </ul>
         </div>
 
         {{-- Right Side: Image --}}
         <div>
-            <img 
-                src="{{ asset('images/car_inspection.png') }}" 
-                alt="Kontrola vozu" 
-                class="w-full rounded-lg shadow-lg object-cover max-h-[400px]"
-            />
+            <div>
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Kontrola" class="rounded-lg shadow-md" />
+            </div>
+            {{-- <img src="{{ asset('images/inspection-detail.jpg') }}" alt="Kontrola vozidla" class="w-full rounded-xl shadow-lg"> --}}
         </div>
     </div>
 </section>

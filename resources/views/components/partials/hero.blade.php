@@ -18,14 +18,14 @@
                 </div>
 
                 <p class="text-lg text-gray-600 mb-6">
-                    Rozumím, že koupě auta je velké rozhodnutí. Proto přijedu za vámi, auto odborně prověřím a vyjednám lepší cenu. Vždy jednám s respektem a lidským přístupem, aby pro vás byl celý proces co nejpříjemnější 
+                    Rozumím, že koupě auta je velké rozhodnutí. Proto přijedu za vámi, auto odborně prověřím a vyjednám lepší cenu. Vždy jednám s respektem a lidským přístupem, aby pro vás byl celý proces co nejpříjemnější!
                 </p>
 
                 <a 
                     class="inline-block bg-[var(--primary-red)] text-white px-6 py-3 rounded-md text-base font-medium duration-300 hover:-translate-y-1 hover:scale-110 uppercase"
                     href="#reservation" 
                     >
-                    Rezervovat kontrolu!
+                    Rezervovat kontrolu
                 </a>
             </div>
 

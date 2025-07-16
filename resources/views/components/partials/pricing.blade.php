@@ -30,4 +30,8 @@
       <span class="font-semibold text-[#e32014]">2 500,-</span>
     </li>
   </ul>
+  <p class="mt-6 text-gray-600 text-center italic">
+    {{-- Ceny jsou orientační, spojím se s Vámi telefonicky a domluvíme se podle konkrétního případu. --}}
+    Ceny jsou orientační, nejlepší bude spojit se telefonicky a domluvit se podle konkrétního případu.
+  </p>
 </section>

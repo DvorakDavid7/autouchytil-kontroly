@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center py-10">
         <div class="text-center">
         <i class="bi bi-geo-alt text-2xl lg:text-3xl"></i>
-        <h1 class="mt-2 text-2xl lg:text-5xl font-bold">Autoservis Uchytil</h1>
+        <h1 class="mt-2 text-2xl lg:text-5xl font-bold">Auto Uchytil</h1>
         <div class="mt-2">
             <p class="font-semibold">Provozovna</p>
             <p class="text-base">nám. Jiřího Berana 191,</p>
