@@ -2,8 +2,8 @@
     <div class="flex flex-col my-2 md:m-0 items-center justify-center md:flex-row md:justify-between">
         <!-- Logo (only visible on md and above) -->
         <div class="hidden md:flex items-center text-white">
-            <a href="/" class="mt-4">
-                <img src="{{ asset('images/logo/logo.svg') }}" alt="logo" width="170" height="170">
+            <a href="/">
+                <img src="{{ asset('images/logo.svg') }}" alt="logo" width="170" height="170">
             </a>
         </div>
 
@@ -20,7 +20,7 @@
                 aria-label="Facebook"
                 class="text-2xl text-white hover:text-gray-200"
             >
-                <i class="bi bi-facebook"></i>
+                {{-- <i class="bi bi-facebook"></i> --}}
             </a>
         </div>
     </div>

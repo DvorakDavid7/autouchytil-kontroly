@@ -48,7 +48,7 @@
         {{-- Right Side: Image --}}
         <div>
             <div>
-                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Kontrola" class="rounded-lg shadow-md" />
+                <img src="{{ asset('images/check_detail.png') }}" alt="Kontrola" class="rounded-lg shadow-md" />
             </div>
             {{-- <img src="{{ asset('images/inspection-detail.jpg') }}" alt="Kontrola vozidla" class="w-full rounded-xl shadow-lg"> --}}
         </div>

@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {{-- Left Side: Image --}}
             <div class="hidden md:block">
-                <img src="{{ asset('images/hero_image.jpg') }}" alt="O nás" class="w-full">
+                <img src="{{ asset('images/about_me.png') }}" alt="O nás" class="w-full">
             </div>
 
             {{-- Right Side: Text --}}
@@ -11,7 +11,7 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">O mně</h2>
 
                 <div class="md:hidden block my-5">
-                    <img src="{{ asset('images/hero_image.jpg') }}" alt="O nás" class="w-full">
+                    <img src="{{ asset('images/about_me.png') }}" alt="O nás" class="w-full">
                 </div>
 
                 <p class="text-gray-700 mb-4">

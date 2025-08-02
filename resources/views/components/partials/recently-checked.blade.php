@@ -5,145 +5,37 @@
 
         <div class="swiper mySwiper">
             <div class="swiper-wrapper py-3">
-                {{-- Card 1 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car1.jpg') }}" 
-                            alt="Škoda Octavia 2015" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Škoda Octavia 2015</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Vada na brzdách</li>
-                                <li>Drobná koroze na podvozku</li>
-                                <li>Ušetřeno: 15 000 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/1') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <x-card 
+                    image="images/cars/car1.png" 
+                    title="BMW 525D" 
+                    :bullets="['Původní cena 210 000,-', 'Perfektní stav kosmetiky', 'Odhalení falešné faktury na rozvody']"
+                    saved="35 000,-"
+                />
 
-                {{-- Card 2 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car2.jpg') }}" 
-                            alt="Ford Focus 2017" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Ford Focus 2017</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Menší poškození karoserie</li>
-                                <li>Nové pneumatiky nutné</li>
-                                <li>Ušetřeno: 20 000 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/2') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <x-card 
+                    image="images/cars/car2.png" 
+                    title="Škoda octavia 1.6 Rs packet" 
+                    :bullets="['Původní cena 65 000,-', 'Staré gumy', 'Horší kvalita laku']"
+                    saved="9 500,-"
+                />
 
-                {{-- Card 3 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car3.jpg') }}" 
-                            alt="Volkswagen Golf 2016" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Volkswagen Golf 2016</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Problémy s elektronikou</li>
-                                <li>Servis zdarma</li>
-                                <li>Ušetřeno: 18 500 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/3') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <x-card
+                    image="images/cars/car3.png" 
+                    title="BMW 440i" 
+                    :bullets="['Původní cena 880 000,-', 'Lakované dveře s blatníkem', 'Zjištena oprava bez použití pojistky']"
+                    saved="37 000,-"
+                />
 
-
-                {{-- Card 1 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car1.jpg') }}" 
-                            alt="Škoda Octavia 2015" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Škoda Octavia 2015</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Vada na brzdách</li>
-                                <li>Drobná koroze na podvozku</li>
-                                <li>Ušetřeno: 15 000 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/1') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Card 2 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car2.jpg') }}" 
-                            alt="Ford Focus 2017" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Ford Focus 2017</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Menší poškození karoserie</li>
-                                <li>Nové pneumatiky nutné</li>
-                                <li>Ušetřeno: 20 000 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/2') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {{-- Card 3 --}}
-                <div class="swiper-slide">
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col h-full">
-                        <img 
-                            src="{{ asset('images/cars/car3.jpg') }}" 
-                            alt="Volkswagen Golf 2016" 
-                            class="w-full h-48 object-cover"
-                        />
-                        <div class="p-4 flex flex-col flex-grow">
-                            <h3 class="text-xl font-semibold mb-2">Volkswagen Golf 2016</h3>
-                            <ul class="list-disc list-inside text-gray-700 mb-4 flex-grow text-left">
-                                <li>Problémy s elektronikou</li>
-                                <li>Servis zdarma</li>
-                                <li>Ušetřeno: 18 500 Kč</li>
-                            </ul>
-                            <a href="{{ url('/cars/3') }}" 
-                                class="mt-auto inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 text-center">
-                                Detail vozu
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <x-card
+                    image="images/cars/car4.png" 
+                    title="Škoda fabia 2 TSI" 
+                    :bullets="['Původní cena 85 000,-', 'Přední naprava v lehce horším stavu', 'Lak pátých dveří']"
+                    saved="12 000,-"
+                />
             </div>
+            {{-- <div class="swiper-button-next ps-20"></div> --}}
+            {{-- <div class="swiper-button-prev"></div> --}}
+            {{-- <div class="swiper-pagination"></div> --}}
         </div>
     </div>
 </section>

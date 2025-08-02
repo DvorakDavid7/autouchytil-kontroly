@@ -8,32 +8,22 @@
             <div class="swiper-wrapper">
                 {{-- Slide 1 --}}
                 <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car1.jpg') }}" alt="Auto 1" class="w-full h-64 object-cover rounded-xl shadow-md" />
+                    <img src="{{ asset('images/cars/car1.png') }}" alt="Auto 1" class="w-full h-64 object-cover rounded-xl shadow-md" />
                 </div>
 
                 {{-- Slide 2 --}}
                 <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car2.jpg') }}" alt="Auto 2" class="w-full h-64 object-cover rounded-xl shadow-md" />
+                    <img src="{{ asset('images/cars/car2.png') }}" alt="Auto 2" class="w-full h-64 object-cover rounded-xl shadow-md" />
                 </div>
 
                 {{-- Slide 3 --}}
                 <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car3.jpg') }}" alt="Auto 3" class="w-full h-64 object-cover rounded-xl shadow-md" />
+                    <img src="{{ asset('images/cars/car3.png') }}" alt="Auto 3" class="w-full h-64 object-cover rounded-xl shadow-md" />
                 </div>
 
                 {{-- Slide 1 --}}
                 <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car1.jpg') }}" alt="Auto 1" class="w-full h-64 object-cover rounded-xl shadow-md" />
-                </div>
-
-                {{-- Slide 2 --}}
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car2.jpg') }}" alt="Auto 2" class="w-full h-64 object-cover rounded-xl shadow-md" />
-                </div>
-
-                {{-- Slide 3 --}}
-                <div class="swiper-slide">
-                    <img src="{{ asset('images/cars/car3.jpg') }}" alt="Auto 3" class="w-full h-64 object-cover rounded-xl shadow-md" />
+                    <img src="{{ asset('images/cars/car4.png') }}" alt="Auto 1" class="w-full h-64 object-cover rounded-xl shadow-md" />
                 </div>
 
                 {{-- Add more slides as needed --}}
