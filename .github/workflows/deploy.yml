@@ -61,3 +61,4 @@ jobs:
             cd ..
             rm -rf public_html
             ln -s ${{ env.PROJECT_NAME }}/public/ public_html
+
