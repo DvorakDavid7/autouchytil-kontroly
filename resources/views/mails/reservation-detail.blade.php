@@ -7,11 +7,9 @@
     </p>
     <p>
         <br>
-        Zákazník: {{ $reservation->first_name }} {{ $reservation->last_name }}<br>
-        Služba: {{ $reservation->service }}<br>
+        Zákazník: {{ $reservation->name }} {{ $reservation->surname }}<br>
         Datum: {{ \Carbon\Carbon::parse($reservation->date)->format('d.m.Y') }} v {{ $reservation->time }}<br>
         Kontakt: {{ $reservation->email }}, {{ $reservation->phone }}<br>
-
         <br>
     <hr>
     Poznámka: {{ $reservation->note }}
