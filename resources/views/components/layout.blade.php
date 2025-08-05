@@ -8,13 +8,14 @@
 
         <!-- Google tag (gtag.js) -->
         @if(app()->environment('production'))
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0P53L48G1"></script>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-T1VBQ8CH62"></script>
             <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', 'G-H0P53L48G1');
+                gtag('config', 'G-T1VBQ8CH62');
             </script>
         @endif
 
