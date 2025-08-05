@@ -22,7 +22,7 @@
                 <x-card
                     image="images/cars/car3.png" 
                     title="BMW 440i" 
-                    :bullets="['Původní cena 880 000,-', 'Lakované dveře s blatníkem', 'Zjištena oprava bez použití pojistky']"
+                    :bullets="['Původní cena 880 000,-', 'Lakované dveře s blatníkem', 'Špatný stav pneu']"
                     saved="37 000,-"
                 />
 
