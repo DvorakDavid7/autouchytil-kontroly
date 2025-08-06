@@ -59,11 +59,7 @@ class ReservationForm extends Component
 
         Mail::to('dvorakdavid7@gmail.com')->send(new ReservationDetail($reservation));
 
-        if (app()->environment('production')) {
-            $this->dispatchBrowserEvent('conversion-tracked', [
-                'url' => route('reservation.confirmed')
-            ]);
-        }
+        session()->flash('fire_conversion', true);
 
         return redirect()->route('reservation.confirmed');
     }

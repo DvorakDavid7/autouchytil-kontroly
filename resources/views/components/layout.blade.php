@@ -49,16 +49,6 @@
                 });
                 return false;
             }
-
-            function test(url) {
-                window.location = url
-            }
-
-            document.addEventListener('conversion-tracked', function(e) {
-                console.log(e)
-                test(e.detail.url);
-                console.log("reservation created!")
-            });
         </script>
     @endif
 
