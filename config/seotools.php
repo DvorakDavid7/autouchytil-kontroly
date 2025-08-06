@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @see https://github.com/artesaos/seotools
  */
@@ -40,7 +41,7 @@ return [
             'type'        => 'website',
             'site_name'   => 'Auto Uchytil',
             'images'      => [
-                'https://autouchytil.cz/images/og-image.jpg' // Replace with your real OG image URL
+                'https://autouchytil.cz/images/hero_image.png' // Replace with your real OG image URL
             ],
         ],
     ],
@@ -60,7 +61,7 @@ return [
             'url'         => 'full',
             'type'        => 'WebPage',
             'images'      => [
-                'https://autouchytil.cz/images/og-image.jpg' // Same as OpenGraph image
+                'https://autouchytil.cz/images/hero_image.png' // Same as OpenGraph image
             ],
         ],
     ],
