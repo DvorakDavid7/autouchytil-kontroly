@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    @if (session('fire_conversion'))
+    @if (session('fire_conversion') && app()->environment('production'))
         <script>
             window.onload = function() {
                 gtag_report_conversion();
