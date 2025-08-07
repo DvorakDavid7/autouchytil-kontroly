@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.blade.php": "blade"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "explorer.autoReveal": false,
+    "editor.formatOnSave": true
+}

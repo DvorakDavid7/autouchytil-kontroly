@@ -1,26 +1,26 @@
 @php
-$steps = [
-    [
-        'number' => 1,
-        'title' => 'Objednáte',
-        'description' => 'Online nebo po telefonu - zvolte si, co Vám nejvíce vyhovuje.'
-    ],
-    [
-        'number' => 2, 
-        'title' => 'Domluvíme se', 
-        'description' => 'Ozvu se vám do pár minut a domluvíme vyhovující termín kontroly.'
-    ],
-    [
-        'number' => 3, 
-        'title' => 'Prověřím', 
-        'description' => 'Prohlédnu vůz, zjistím stav a pokusíme se vyjednat slevu.'
-    ],
-    [
-        'number' => 4, 
-        'title' => 'Poradím', 
-        'description' => 'Dostanete přehledný report a zdělím Vám svůj názor na předmětné auto.'
-    ],
-];
+    $steps = [
+        [
+            'number' => 1,
+            'title' => 'Objednáte',
+            'description' => 'Online nebo po telefonu - zvolte si, co Vám nejvíce vyhovuje.',
+        ],
+        [
+            'number' => 2,
+            'title' => 'Domluvíme se',
+            'description' => 'Ozvu se vám do pár minut a domluvíme vyhovující termín kontroly.',
+        ],
+        [
+            'number' => 3,
+            'title' => 'Prověřím',
+            'description' => 'Prohlédnu vůz, zjistím stav a pokusíme se vyjednat slevu.',
+        ],
+        [
+            'number' => 4,
+            'title' => 'Poradím',
+            'description' => 'Dostanete přehledný report a zdělím Vám svůj názor na předmětné auto.',
+        ],
+    ];
 @endphp
 <section class="bg-gray-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -30,9 +30,9 @@ $steps = [
         {{-- Video Embed --}}
         {{-- <p class="text-lg text-gray-600 mb-12">Podívejte se na krátké video a zjistěte, jak vám mohu pomoci s nákupem ojetého vozu.</p> --}}
         {{-- <div class="flex justify-center mb-12">
-            <img 
-                src="{{ asset('images/video_preview.png') }}" 
-                alt="video preview" 
+            <img
+                src="{{ asset('images/video_preview.png') }}"
+                alt="video preview"
                 class="w-full max-w-md"
                 style="background: none;"
             >

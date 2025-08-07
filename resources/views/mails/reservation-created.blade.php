@@ -6,7 +6,7 @@
         Detaily rezervace:
     </p>
     <p>
-        Termín: {{\Carbon\Carbon::parse($reservation->date)->format('d.m.Y') }} v {{ $reservation->time }}
+        Termín: {{ \Carbon\Carbon::parse($reservation->date)->format('d.m.Y') }} v {{ $reservation->time }}
         <br>
         Služba: {{ $reservation->service }}
         <br>

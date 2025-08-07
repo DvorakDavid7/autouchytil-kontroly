@@ -15,11 +15,8 @@
                     <strong>(+420) 774 034 180</strong>
                 </a>
             </div>
-            <a
-                href="https://www.facebook.com/profile.php?id=61560377717879"
-                aria-label="Facebook"
-                class="text-2xl text-white hover:text-gray-200"
-            >
+            <a href="https://www.facebook.com/profile.php?id=61560377717879" aria-label="Facebook"
+                class="text-2xl text-white hover:text-gray-200">
                 {{-- <i class="bi bi-facebook"></i> --}}
             </a>
         </div>

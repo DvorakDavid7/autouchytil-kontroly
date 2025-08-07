@@ -1,11 +1,12 @@
 <x-layout>
     @php
-    $sections = [
-        [
-            'title' => '1. Základní ustanovení',
-            'content' => '
+        $sections = [
+            [
+                'title' => '1. Základní ustanovení',
+                'content' => '
                 Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského parlamentu a Rady
-                (EU) 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů
+                (EU)
+2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů
                 a o pohybu těchto údajů (dále jen: „GDPR”) je Jan Uchytil, IČ 19382499 se sídlem nám.
                 Jiřího Berana 191, 196 00 Praha-Čakovice.<br><br>
                 <strong>Email:</strong> info@autoservisjju.cz<br><br>
@@ -15,19 +16,19 @@
                 lokační údaje, síťový identifikátor nebo na jeden či více zvláštních prvků fyzické, fyziologické,
                 genetické, psychické, ekonomické, kulturní nebo společenské identity této fyzické osoby. Správce
                 nejmenoval pověřence pro ochranu osobních údajů.
-            '
-        ],
-        [
-            'title' => '2. Zdroje a kategorie zpracovaných údajů',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '2. Zdroje a kategorie zpracovaných údajů',
+                'content' => '
                 Správce zpracovává osobní údaje, které jste mu poskytl/a nebo osobní údaje, které správce
                 získal na základě plnění Vaší poptávky. Správce zpracovává Vaše identifikační a kontaktní údaje
                 a údaje nezbytné pro plnění poptávky.
-            '
-        ],
-        [
-            'title' => '3. Zákonný důvod a účel zpracování osobních údajů',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '3. Zákonný důvod a účel zpracování osobních údajů',
+                'content' => '
                 Zákonným důvodem zpracování osobních údajů je plnění smlouvy mezi Vámi a správcem podle
                 čl. 6 odst. 1 písm. b) GDPR, oprávněný zájem správce na poskytování přímého
                 marketingu (zejména pro zasílání obchodních sdělení a newsletterů) podle čl. 6
@@ -43,11 +44,11 @@
                 Zasílání obchodních sdělení a činění dalších marketingových aktivit. Ze strany správce
                 nedochází k automatickému individuálnímu rozhodování ve smyslu čl. 22 GDPR. S takovým
                 zpracováním jste poskytl/a svůj výslovný souhlas.
-            '
-        ],
-        [
-            'title' => '4. Doba uchování údajů',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '4. Doba uchování údajů',
+                'content' => '
                 Správce uchovává osobní údaje:
                 <ol>
                     <li>
@@ -61,11 +62,11 @@
                     </li>
                 </ol>
                 Po uplynutí doby uchovávání osobních údajů správce osobní údaje vymaže.
-            '
-        ],
-        [
-            'title' => '5. Příjemci osobních údajů (subdodavatelé správce)',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '5. Příjemci osobních údajů (subdodavatelé správce)',
+                'content' => '
                 Příjemci osobních údajů jsou osoby:
                 <ol>
                     <li>podílející se na dodání zboží / služeb / realizaci plateb na základě smlouvy,</li>
@@ -83,11 +84,11 @@
                         Více informací naleznete v části <a href="/zasady-cookies">Zásady Cookies</a>.
                     </strong>
                 </p>
-            '
-        ],
-        [
-            'title' => '6. Vaše práva',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '6. Vaše práva',
+                'content' => '
                 Za podmínek stanovených v GDPR máte:
                 <ol>
                     <li>právo na přístup ke svým osobním údajům dle čl. 15 GDPR,</li>
@@ -100,22 +101,22 @@
                         uvedený v čl. 3 těchto podmínek. Odvolat souhlas můžete kdykoli ve svém vlastním účtu zákazníka.
                     </li>
                 </ol>
-            '
-        ],
-        [
-            'title' => '7. Podmínky zabezpečení osobních údajů',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '7. Podmínky zabezpečení osobních údajů',
+                'content' => '
                 Správce prohlašuje, že přijal veškerá vhodná technická a organizační opatření
                 k zabezpečení osobních údajů.<br><br>
                 Správce přijal technická opatření k zabezpečení datových úložišť a úložišť osobních údajů
                 v listinné podobě, zejména zabezpečeného/šifrovaného přístupu na web, šifrování hesel zákazníků
                 v databázi, pravidelné aktualizace systému, pravidelné zálohy systému.<br><br>
                 Správce prohlašuje, že k osobním údajům mají přístup pouze jím pověřené osoby.
-            '
-        ],
-        [
-            'title' => '8. Závěrečná ustanovení',
-            'content' => '
+            ',
+            ],
+            [
+                'title' => '8. Závěrečná ustanovení',
+                'content' => '
                 Odesláním dotazu z internetového formuláře či vložením emailu z důvodu přihlášení se
                 k odběru marketingových sdělení potvrzujete, že jste seznámen/a s podmínkami ochrany
                 osobních údajů a že je v celém rozsahu přijímáte.<br><br>
@@ -125,15 +126,15 @@
                 Správce je oprávněn tyto podmínky změnit. Novou verzi podmínek ochrany osobních údajů zveřejní na
                 svých internetových stránkách a zároveň Vám zašle novou verzi těchto podmínek na e-mailovou
                 adresu, kterou jste poskytl/a.
-            '
-        ],
-    ];
+            ',
+            ],
+        ];
     @endphp
 
     <section id="personal-data">
         <div class="flex items-center justify-center">
             <div class="mt-24 mb-10 min-h-full flex flex-col items-center">
-            <h1 class="text-5xl">Zásady ochrany osobních údajů</h1>
+                <h1 class="text-5xl">Zásady ochrany osobních údajů</h1>
                 @foreach ($sections as $section)
                     <div key={idx} class="text-block text-justify mt-6">
                         <h2 class="text-left text-2xl leading-base">{{ $section['title'] }}</h2>

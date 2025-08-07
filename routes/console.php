@@ -24,4 +24,3 @@ Artisan::command('sitemap:generate', function () {
 
     $this->info('Sitemap and robots.txt generated at public/ directory');
 })->purpose('Generate the sitemap.xml file for the website');
-
