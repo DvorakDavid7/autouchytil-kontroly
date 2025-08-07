@@ -22,7 +22,7 @@
         ],
     ];
 @endphp
-<section class="bg-gray-50 py-20">
+<section class="bg-gray-50 py-20" id="jak-to-funguje">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {{-- Section Heading --}}
         <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Jak to funguje?</h2>

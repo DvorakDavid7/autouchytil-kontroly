@@ -27,7 +27,7 @@
     ];
 @endphp
 
-<section class="bg-white py-20">
+<section class="bg-white py-20" id="kontrolovane-vozy">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Nedávno kontrolované vozy</h2>
         <p class="text-lg text-gray-600 mb-10">
