@@ -71,7 +71,7 @@
     <!-- Mobile Menu -->
     <div x-show="open" class="md:hidden flex flex-col gap-4 px-4 pb-4 text-white">
         @foreach ($links as $link)
-            <a :href="$link['href']" class="hover:underline">{{ $link['title'] }}</a>
+            <a href="{{ $link['href'] }}" class="hover:underline">{{ $link['title'] }}</a>
         @endforeach
 
         <div class="flex items-center gap-3 mt-2">
