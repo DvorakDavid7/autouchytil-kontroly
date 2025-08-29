@@ -7,6 +7,11 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Hotjar from '@hotjar/browser';
+
+const siteId = 6506610;
+const hotjarVersion = 6;
+Hotjar.init(siteId, hotjarVersion);
 
 window.Alpine = Alpine;
 Alpine.start();
